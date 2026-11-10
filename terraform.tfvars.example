@@ -1,0 +1,6 @@
+# Copy to terraform.tfvars (which is git-ignored) and edit.
+region         = "eu-west-2"
+project_name   = "lab"
+admin_cidr     = "203.0.113.7/32"                 # your public IP, /32
+ssh_public_key = "ssh-ed25519 AAAA... you@laptop" # contents of your .pub file
+enable_http    = false
